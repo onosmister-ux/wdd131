@@ -59,8 +59,12 @@ h1 {
 }
 
 .card img {
-    width: 100%;
-    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
 }
 
 footer {
