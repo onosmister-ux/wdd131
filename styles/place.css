@@ -10,7 +10,6 @@ body {
     background: #f4f4f4;
 }
 
-/* HEADER */
 header {
     background: var(--primary);
     color: white;
@@ -18,14 +17,12 @@ header {
     padding: 20px;
 }
 
-/* GRID LAYOUT */
 main {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
 
-/* HERO FULL WIDTH */
 .hero {
     grid-column: 1 / -1;
 }
@@ -37,7 +34,7 @@ main {
     display: block;
 }
 
-/* CARDS */
+
 .data, .weather {
     background: white;
     margin: 20px;
@@ -45,7 +42,6 @@ main {
     border-radius: 8px;
 }
 
-/* FOOTER */
 footer {
     background: var(--primary);
     color: white;
@@ -53,7 +49,6 @@ footer {
     padding: 15px;
 }
 
-/* DESKTOP VIEW */
 @media (min-width: 768px) {
 
     main {
@@ -68,7 +63,7 @@ footer {
         grid-column: 2;
     }
 
-    /* REQUIRED pseudo-element */
+    
     .weather h2::after {
         content: "⛅";
         margin-left: 10px;
