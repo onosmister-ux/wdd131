@@ -1,0 +1,113 @@
+/* =====================
+   Global Styles
+===================== */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #F5DEB3;
+}
+
+header, footer {
+  background-color: #8B0000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+a {
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: #8B0000;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+
+header h1 {
+  color: #F5DEB3;
+}
+
+
+/* =====================
+   Layout
+===================== */
+main {
+  padding: 1rem;
+}
+
+section {
+  background: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 5px solid #DAA520;
+  border-radius: 10px;
+}
+
+/* =====================
+   Forms
+===================== */
+form {
+  background: white;
+  padding: 1.5rem;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+}
+
+fieldset {
+  margin-top: 1rem;
+}
+
+input[type="submit"], button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+  background: darkgreen;
+}
+
+/* =====================
+   Product Cards
+===================== */
+#products div {
+  background: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* =====================
+   Responsive
+===================== */
+@media (min-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  form {
+    max-width: 700px;
+  }
+}
