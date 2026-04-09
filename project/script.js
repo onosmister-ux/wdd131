@@ -6,11 +6,13 @@ const products = [
   { id: "jj-1969", name: "warp equalizer", averagerating: 5.0 }
 ];
 
-const select = document.querySelector("#product");
+document.addEventListener("DOMContentLoaded", () => {
+  const select = document.querySelector("#product");
 
-products.forEach(product => {
-  const option = document.createElement("option");
-  option.value = product.name; // REQUIRED: value = product name
-  option.textContent = product.name;
-  select.appendChild(option);
+  products.forEach(product => {
+    const option = document.createElement("option");
+    option.value = product.name;
+    option.textContent = product.name;
+    select.appendChild(option);
+  });
 });
